@@ -1,9 +1,9 @@
 {
-    "name": "vs-keybindings",
-    "displayName": "Visual Studio Keymap",
-    "description": "Popular Visual Studio keybindings for VS Code.",
-    "version": "0.2.0",
-    "publisher": "ms-vscode",
+    "name": "vc6-keybindings",
+    "displayName": "Visual C++ 6.0 Keymap",
+    "description": "Popular Visual C++ 6.0 keybindings for VS Code.",
+    "version": "0.1.0",
+    "publisher": "sambhare",
     "engines": {
         "vscode": "^1.6.0"
     },
@@ -15,10 +15,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/microsoft/vscode-vs-keybindings.git"
+        "url": "https://github.com/sambhare/vscode-vc6-keybindings.git"
     },
     "bugs": {
-        "url": "https://github.com/microsoft/vscode-vs-keybindings/issues"
+        "url": "https://github.com/sambhare/vscode-vc6-keybindings/issues"
     },
     "preview": true,
     "icon": "vc6-keyboard.png",
