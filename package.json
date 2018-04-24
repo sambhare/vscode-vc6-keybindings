@@ -60,7 +60,7 @@
                 "when": "editorTextFocus"
             },
             {
-                "key": "ctrl+r ctrl+f2",
+                "key": "ctrl+k ctrl+f2",
                 "command": "editor.action.changeAll",
                 "when": "editorTextFocus && !editorReadonly"
             },
@@ -99,7 +99,7 @@
                 "command": "editor.action.referenceSearch.trigger"
             },
             {
-                "key": "ctrl+r f2",
+                "key": "ctrl+k f2",
                 "command": "editor.action.rename",
                 "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
             },
