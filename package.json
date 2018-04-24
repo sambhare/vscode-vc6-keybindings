@@ -25,30 +25,14 @@
     "contributes": {
         "keybindings": [
             {
-                "key": "f7",
-                "command": "workbench.action.tasks.build"
+                "key": "ctrl+right",
+                "command": "cursorWordStartRight",
+                "when": "editorTextFocus"
             },
             {
-                "key": "ctrl+f10",
-                "command": "editor.debug.action.runToCursor",
-                "when": "inDebugMode"
-            },
-            {
-                "key": "ctrl+k ctrl+d",
-                "command": "editor.action.formatDocument"
-            },
-            {
-                "key": "alt+f12",
-                "command": "editor.action.referenceSearch.trigger"
-            },
-            {
-                "key": "ctrl+y",
-                "command": "redo"
-            },
-            {
-                "key": "ctrl+alt+space",
-                "command": "editor.action.triggerSuggest",
-                "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+                "key": "ctrl+shift+right",
+                "command": "cursorWordStartRightSelect",
+                "when": "editorTextFocus"
             },
             {
                 "key": "ctrl+delete",
@@ -61,13 +45,19 @@
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
-                "key": "ctrl+shift+s",
-                "command": "workbench.action.files.saveAll"
+                "key": "f2",
+                "command": "bookmarks.jumpToNext",
+                "when": "editorTextFocus"
             },
             {
-                "key": "ctrl+r f2",
-                "command": "editor.action.rename",
-                "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+                "key": "shift+f2",
+                "command": "bookmarks.jumpToPrevious",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+f2",
+                "command": "bookmarks.toggle",
+                "when": "editorTextFocus"
             },
             {
                 "key": "ctrl+r ctrl+f2",
@@ -75,29 +65,23 @@
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
-                "key": "ctrl+shift+8",
-                "command": "editor.action.toggleRenderWhitespace"
+                "key": "ctrl+k ctrl+d",
+                "command": "editor.action.formatDocument",
+                "when": "editorTextFocus && !editorReadonly"
             },
             {
-                "key": "ctrl+-",
-                "command": "workbench.action.navigateBack"
+                "key": "alt+f8",
+                "command": "editor.action.formatSelection",
+                "when": "editorHasSelection && editorTextFocus && !editorReadonly"
             },
             {
-                "key": "ctrl+shift+-",
-                "command": "workbench.action.navigateForward"
-            },
-            {
-                "key": "ctrl+f4",
-                "command": "workbench.action.closeActiveEditor"
-            },
-            {
-                "key": "ctrl+right",
-                "command": "cursorWordStartRight",
+                "key": "ctrl+,",
+                "command": "editor.fold",
                 "when": "editorTextFocus"
             },
             {
-                "key": "ctrl+shift+right",
-                "command": "cursorWordStartRightSelect",
+                "key": "ctrl+.",
+                "command": "editor.unfold",
                 "when": "editorTextFocus"
             },
             {
@@ -106,17 +90,22 @@
                 "when": "editorTextFocus"
             },
             {
-                "key": "f6",
-                "command": "workbench.action.focusNextGroup"
+                "key": "ctrl+shift+]",
+                "command": "editor.action.selectToBracket",
+                "when": "editorTextFocus"
             },
             {
-                "key": "shift+f6",
-                "command": "workbench.action.focusPreviousGroup"
+                "key": "alt+f12",
+                "command": "editor.action.referenceSearch.trigger"
             },
             {
-                "key": "alt+f8",
-                "command": "editor.action.formatSelection",
-                "when": "editorHasSelection && editorTextFocus && !editorReadonly"
+                "key": "ctrl+r f2",
+                "command": "editor.action.rename",
+                "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+shift+8",
+                "command": "editor.action.toggleRenderWhitespace"
             },
             {
                 "key": "ctrl+u",
@@ -130,19 +119,46 @@
                 "when": "editorTextFocus&& !editorReadonly"
             },
             {
-                "key": "ctrl+f2",
-                "command": "bookmarks.toggle",
-                "when": "editorTextFocus"
+                "key": "ctrl+alt+space",
+                "command": "editor.action.triggerSuggest",
+                "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
             },
             {
-                "key": "f2",
-                "command": "bookmarks.jumpToNext",
-                "when": "editorTextFocus"
+                "key": "ctrl+f10",
+                "command": "editor.debug.action.runToCursor",
+                "when": "inDebugMode"
             },
             {
-                "key": "shift+f2",
-                "command": "bookmarks.jumpToPrevious",
-                "when": "editorTextFocus"
+                "key": "ctrl+y",
+                "command": "redo"
+            },
+            {
+                "key": "ctrl+f4",
+                "command": "workbench.action.closeActiveEditor"
+            },
+            {
+                "key": "ctrl+shift+s",
+                "command": "workbench.action.files.saveAll"
+            },
+            {
+                "key": "ctrl+-",
+                "command": "workbench.action.navigateBack"
+            },
+            {
+                "key": "ctrl+shift+-",
+                "command": "workbench.action.navigateForward"
+            },
+            {
+                "key": "f6",
+                "command": "workbench.action.focusNextGroup"
+            },
+            {
+                "key": "shift+f6",
+                "command": "workbench.action.focusPreviousGroup"
+            },
+            {
+                "key": "f7",
+                "command": "workbench.action.tasks.build"
             }
         ]
     },
