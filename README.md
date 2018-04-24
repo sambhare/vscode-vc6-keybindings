@@ -6,9 +6,9 @@ This extension ports several Visual C++ 6.0 keyboard shortcuts to Visual Studio 
 
 You can see all the keyboard shortcuts in the extension's contribution list.
 
-## Why don't all the keyboard shortcuts work?
+## Why aren't all the keyboard shortcuts here?
 
-VS Code does not implement all of the commands available in Visual C++ 6.0.
+VS Code does not implement all of the commands that were available in Visual C++ 6.0. As a reference, [this page](https://msdn.microsoft.com/en-us/library/58feksch(v=vs.100).aspx) lists all the shortcuts available in Visual C++ 6.0.
 
 ## Why are there some keyboard shortcuts here that were not originally in Visual C++ 6.0?
 
@@ -20,7 +20,7 @@ Anonymous bookmarking via F2 was one of the most useful features of Visual C++ 6
 
 ## How do I contribute a keyboard shortcut?
 
-I may have missed a keyboard shortcut. If I did please help me out! It is very easy to make a PR.
+It is very easy to make a PR.
 
 1. Head over to the [GitHub repository](https://github.com/sambhare/vscode-vc6-keybindings).
 2. Open [`package.json`](https://github.com/sambhare/vscode-vc6-keybindings/blob/master/package.json).
