@@ -1,6 +1,6 @@
 # Visual C++ 6.0 Keymap for Visual Studio Code
 
-This extension ports Visual C++ 6.0 keyboard shortcuts to Visual Studio Code. After installing the extension and restarting VS Code your favorite keyboard shortcuts from Visual C++ 6.0 are now available.
+This extension ports several Visual C++ 6.0 keyboard shortcuts to Visual Studio Code. After installing the extension and restarting VS Code your favorite keyboard shortcuts from Visual C++ 6.0 are now available.
 
 ## What keyboard shortcuts are included?
 
@@ -8,7 +8,15 @@ You can see all the keyboard shortcuts in the extension's contribution list.
 
 ## Why don't all the keyboard shortcuts work?
 
-VS Code does not implement all of the commands available in Visual C++ 6.0. If you would like to see a feature in VS Code that is in Visual C++ 6.0, please open an [issue on GitHub](https://github.com/Microsoft/vscode/issues/new).
+VS Code does not implement all of the commands available in Visual C++ 6.0.
+
+## Why are there some keyboard shortcuts here that were not originally in Visual C++ 6.0?
+
+Some useful VS Code concepts like folding did not exist in Visual C++ 6.0. I did my best to provide shortcuts for such features.
+
+## Why do I have to install the Bookmarks extension?
+
+Anonymous bookmarking via F2 was one of the most useful features of Visual C++ 6.0 and the Bookmarks extension combined with this keymap brings this functionality to VS Code.
 
 ## How do I contribute a keyboard shortcut?
 
@@ -25,7 +33,8 @@ I may have missed a keyboard shortcut. If I did please help me out! It is very e
     "linux": "<keyboard shortcut for linux",
     "win": "<keyboard shortcut for windows",
     "key": "<default keyboard shortcut>",
-    "command": "<name of the command in VS Code"
+    "command": "<name of the command in VS Code",
+    "when": "<condition>"
 }
 ```
 
