@@ -27,22 +27,22 @@
             {
                 "key": "ctrl+right",
                 "command": "cursorWordStartRight",
-                "when": "editorTextFocus"
+                "when": "textInputFocus"
             },
             {
                 "key": "ctrl+shift+right",
                 "command": "cursorWordStartRightSelect",
-                "when": "editorTextFocus"
+                "when": "textInputFocus"
             },
             {
                 "key": "ctrl+delete",
                 "command": "deleteWordEndRight",
-                "when": "editorTextFocus && !editorReadonly"
+                "when": "textInputFocus && !editorReadonly"
             },
             {
                 "key": "ctrl+backspace",
                 "command": "deleteWordStartLeft",
-                "when": "editorTextFocus && !editorReadonly"
+                "when": "textInputFocus && !editorReadonly"
             },
             {
                 "key": "f2",
@@ -96,7 +96,8 @@
             },
             {
                 "key": "alt+f12",
-                "command": "editor.action.referenceSearch.trigger"
+                "command": "editor.action.referenceSearch.trigger",
+                "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
             },
             {
                 "key": "ctrl+k f2",
@@ -110,18 +111,18 @@
             {
                 "key": "ctrl+u",
                 "command": "editor.action.transformToLowercase",
-                "when": "editorTextFocus&& !editorReadonly"
+                "when": "textInputFocus && !editorReadonly"
             },
             {
                 "key": "ctrl+shift+u",
                 "linux": "",
                 "command": "editor.action.transformToUppercase",
-                "when": "editorTextFocus&& !editorReadonly"
+                "when": "textInputFocus && !editorReadonly"
             },
             {
                 "key": "ctrl+alt+space",
                 "command": "editor.action.triggerSuggest",
-                "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+                "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
             },
             {
                 "key": "ctrl+f10",
