@@ -6,23 +6,23 @@ This section lists the default key combinations available for the Visual C++ 6.0
 
 | Command name | Shortcut keys | Description |
 |---|---|---|
-| Edit.MoveControlDown | DOWN ARROW CTRL + DOWN ARROW | Moves the selected control down in increments of 1 on the design surface. |
+| Edit.MoveControlDown | DOWN ARROW <br/> CTRL + DOWN ARROW | Moves the selected control down in increments of 1 on the design surface. |
 | Edit.MoveControlDownGrid | DOWN ARROW | Moves the selected control down in increments of 8 on the design surface. |
-| Edit.MoveControlLeft | LEFT ARROW CTRL + LEFT ARROW | Moves the control to the left in increments of 1 on the design surface. |
+| Edit.MoveControlLeft | LEFT ARROW <br/> CTRL + LEFT ARROW | Moves the control to the left in increments of 1 on the design surface. |
 | Edit.MoveControlLeftGrid | LEFT ARROW | Moves the control to the left in increments of 8 on the design surface. |
-| Edit.MoveControlRight | RIGHT ARROW CTRL + RIGHT ARROW | Moves the control to the right in increments of 1 on the design surface. |
+| Edit.MoveControlRight | RIGHT ARROW <br/> CTRL + RIGHT ARROW | Moves the control to the right in increments of 1 on the design surface. |
 | Edit.MoveControlRightGrid | RIGHT ARROW | Moves the control to the right in increments of 8 on the design surface. |
-| Edit.MoveControlUp | UP ARROW CTRL + UP ARROW | Moves the control up in increments of 1 on the design surface. |
+| Edit.MoveControlUp | UP ARROW <br/> CTRL + UP ARROW | Moves the control up in increments of 1 on the design surface. |
 | Edit.MoveControlUpGrid | UP ARROW | Moves the control up in increments of 8 on the design surface. |
 | Edit.SelectNextControl | TAB | Moves to the next control on the page. |
 | Edit.SelectPreviousControl | SHIFT + TAB | Moves back to the previously selected control on the page. |
-| Edit.SizeControlDown | SHIFT + DOWN ARROW CTRL + SHIFT + DOWN ARROW | Increases the height of the control in increments of 1 on the design surface. |
+| Edit.SizeControlDown | SHIFT + DOWN ARROW <br/> CTRL + SHIFT + DOWN ARROW | Increases the height of the control in increments of 1 on the design surface. |
 | Edit.SizeControlDownGrid | SHIFT + DOWN ARROW | Increases the height of the control in increments of 8 on the design surface. |
-| Edit.SizeControlLeft | SHIFT + LEFT ARROW CTRL + SHIFT + LEFT ARROW | Reduces the width of the control in increments of 1 on the design surface. |
+| Edit.SizeControlLeft | SHIFT + LEFT ARROW <br/> CTRL + SHIFT + LEFT ARROW | Reduces the width of the control in increments of 1 on the design surface. |
 | Edit.SizeControlLeftGrid | SHIFT + LEFT ARROW | Reduces the width of the control in increments of 8 on the design surface. |
-| Edit.SizeControlRight | SHIFT + RIGHT ARROW CTRL + SHIFT + RIGHT ARROW | Increases the width of the control in increments of 1 on the design surface. |
+| Edit.SizeControlRight | SHIFT + RIGHT ARROW <br/> CTRL + SHIFT + RIGHT ARROW | Increases the width of the control in increments of 1 on the design surface. |
 | Edit.SizeControlRightGrid | SHIFT + RIGHT ARROW | Increases the width of the control in increments of 8 on the design surface. |
-| Edit.SizeControlUp | SHIFT + UP ARROW CTRL + SHIFT + UP ARROW | Decreases the height of the control in increments of 1 on the design surface. |
+| Edit.SizeControlUp | SHIFT + UP ARROW <br/> CTRL + SHIFT + UP ARROW | Decreases the height of the control in increments of 1 on the design surface. |
 | Edit.SizeControlUpGrid | SHIFT + UP ARROW | Decreases the height of the control in increments of 8 on the design surface.
 
 ## Database Tools Shortcut Keys
@@ -45,22 +45,22 @@ This section lists the default key combinations available for the Visual C++ 6.0
 | Debug.ApplyCodeChanges | ALT + F10 | Apply changes made to code without stopping debug mode. See Edit and Continue for more information. |
 | Debug.Autos | CTRL + ALT + V, A | Displays the Autos window to view the values of variables currently in the scope of the current line of execution within the current procedure. See Breaking Execution for more information. |
 | Debug.BreakAll | CTRL + ALT + BREAK | Temporarily stops execution of all processes in a debugging session. Available only in run mode. |
-| Debug.Breakpoints | ALT + F9 CTRL + ALT + B | Displays the New Breakpoint dialog box, where you can add and modify breakpoints. See Using Breakpoints and Tracepoints for more information. |
-| Debug.CallStack | ALT + 7 CTRL + ALT + C | Displays the Call Stack window to display a list of all active procedures or stack frames for the current thread of execution. Available only in run mode. See How to: Use the Call Stack Window for more information. |
+| Debug.Breakpoints | ALT + F9 <br/> CTRL + ALT + B | Displays the New Breakpoint dialog box, where you can add and modify breakpoints. See Using Breakpoints and Tracepoints for more information. |
+| Debug.CallStack | ALT + 7 <br/> CTRL + ALT + C | Displays the Call Stack window to display a list of all active procedures or stack frames for the current thread of execution. Available only in run mode. See How to: Use the Call Stack Window for more information. |
 | Debug.ClearAllBreakpoints | CTRL + SHIFT + F9 | Clears all the breakpoints in the project. |
 | Debug.Disassembly | ALT + 8 | Displays the Disassembly window. See How to: Use the Disassembly Window for more information. |
 | Debug.EnableBreakpoint | CTRL + F9 | Enables breakpoint at the current line. |
 | Debug.Exceptions | CTRL + ALT + E | Displays the Exceptions dialog box. See Continuing Execution After an Exception for more information. |
 | Debug.Immediate | CTRL + ALT + I | Displays the Immediate window, where you can evaluate expressions and execute individual commands. |
-| Debug.Locals | ALT + 4 CTRL + ALT + V, L | Displays the Locals window to view the variables and their values for each procedure in the current stack frame. |
-| Debug.Memory1 | ALT + 6 CTRL + ALT + M, 1 | Displays the Memory 1 window to view large buffers, strings, and other data that do not display clearly in the Watch or Variables window. |
+| Debug.Locals | ALT + 4 <br/> CTRL + ALT + V, L | Displays the Locals window to view the variables and their values for each procedure in the current stack frame. |
+| Debug.Memory1 | ALT + 6 <br/> CTRL + ALT + M, 1 | Displays the Memory 1 window to view large buffers, strings, and other data that do not display clearly in the Watch or Variables window. |
 | Debug.Memory2 | CTRL + ALT + M, 2 | Displays the Memory 2 window to view large buffers, strings, and other data that do not display clearly in the Watch or Variables window. |
 | Debug.Memory3 | CTRL + ALT + M, 3 | Displays the Memory 3 window to view large buffers, strings, and other data that do not display clearly in the Watch or Variables window. |
 | Debug.Memory4 | CTRL + ALT + M, 4 | Displays the Memory 4 window to view large buffers, strings, and other data that do not display clearly in the Watch or Variables window. |
 | Debug.Modules | CTRL + ALT + U | Displays the Modules window, which allows you to view the .dll or .exe files used by the program. See How to: Use the Modules Window for more information. |
 | Debug.NewBreakpoint | CTRL + B | Inserts or clears a breakpoint in the current line of code. |
-| Debug.QuickWatch | CTRL + ALT + Q SHIFT + F9 | Displays the QuickWatch dialog box with the current value of the selected expression. Available only in break mode. Use this command to check the current value of a variable, property, or other expression for which you have not defined a watch expression. |
-| Debug.Registers | ALT + 5 CTRL + ALT + G | Displays the Registers window, which displays registers content for debugging native-code applications. See How to: Use the Registers Window for more information. |
+| Debug.QuickWatch | CTRL + ALT + Q <br/> SHIFT + F9 | Displays the QuickWatch dialog box with the current value of the selected expression. Available only in break mode. Use this command to check the current value of a variable, property, or other expression for which you have not defined a watch expression. |
+| Debug.Registers | ALT + 5 <br/> CTRL + ALT + G | Displays the Registers window, which displays registers content for debugging native-code applications. See How to: Use the Registers Window for more information. |
 | Debug.Restart | CTRL + SHIFT + F5 | Terminates a debugging session, rebuilds, and then starts running the application from the beginning again. Available in break and run modes. |
 | Debug.RunningDocuments | CTRL + ALT + N | Displays the Running Documents window, which displays the set of documents that are in the process you are debugging. Available in run mode. |
 | Debug.RunToCursor | CTRL + F10 | In break mode, resumes execution of your code from the current statement to the selected statement. The Current Line of Execution margin indicator appears in the Margin Indicator bar. See Run to the Cursor Location for more information. |
@@ -94,8 +94,8 @@ This section lists the default key combinations available for the Visual C++ 6.0
 | Format.CenterHorizontal | CTRL + SHIFT + F9 | Centers the control with the horizontal center of the dialog box. |
 | Format.CenterVertical | CTRL + F9 | Centers the control with the vertical center of the dialog box. |
 | Format.SizetoContent | SHIFT + F7 | Reduces or increases the size of the selected control to match the content of the control. |
-| Format.SpaceAcross | ALT + RIGHT ARROW ALT + LEFT ARROW | Aligns the selected controls so that the controls are spaced evenly apart horizontally. |
-| Format.SpaceDown | ALT + UP ARROW ALT + DOWN ARROW | Aligns the selected controls so that the controls are spaced evenly apart vertically. |
+| Format.SpaceAcross | ALT + RIGHT ARROW <br/> ALT + LEFT ARROW | Aligns the selected controls so that the controls are spaced evenly apart horizontally. |
+| Format.SpaceDown | ALT + UP ARROW <br/> ALT + DOWN ARROW | Aligns the selected controls so that the controls are spaced evenly apart vertically. |
 | Format.TabOrder | CTRL + D | Displays a number beside each control, indicating the order in which the controls are selected when you tab. |
 | Format.TestDialog | CTRL + T | Displays a testable version of the current dialog box.
 
@@ -103,22 +103,22 @@ This section lists the default key combinations available for the Visual C++ 6.0
 
 | Command name | Shortcut keys | Description |
 |---|---|---|
-| Edit.Copy | CTRL + INSERT CTRL + C | Copies the currently selected item to the system clipboard. |
-| Edit.Cut | SHIFT + DELETE CTRL + X | Removes the currently selected item and places it on the system clipboard. |
-| Edit.CycleClipboardRing | CTRL + SHIFT + V CTRL + SHIFT + INSERT | Removes the currently selected item and places it on the system clipboard. |
+| Edit.Copy | CTRL + INSERT <br/> CTRL + C | Copies the currently selected item to the system clipboard. |
+| Edit.Cut | SHIFT + DELETE <br/> CTRL + X | Removes the currently selected item and places it on the system clipboard. |
+| Edit.CycleClipboardRing | CTRL + SHIFT + V <br/> CTRL + SHIFT + INSERT | Removes the currently selected item and places it on the system clipboard. |
 | Edit.ListMembers | CTRL + ALT + T | Lists members of current class for statement completion when editing code. |
 | Edit.GotoNextLocation | F8 | Moves the cursor to the next item, such as a task in the Task List window or a search match in the Find Results window. Each time you press F8, you move to the next item in the list. |
 | Edit.GotoPreviousLocation | SHIFT + F8 | Moves the cursor to the previous item in the Task List window or Find Results window. |
 | Edit.GoToReference | SHIFT + F12 | Displays the reference of the selection in the code. |
 | Edit.Paste | CTRL + V SHIFT + INSERT | Inserts the Clipboard contents at the insertion point. |
-| Edit.Redo | CTRL + Y CTRL + SHIFT + Z SHIFT + ALT + BACKSPACE | Restores the previously undone action. |
+| Edit.Redo | CTRL + Y <br/> CTRL + SHIFT + Z <br/> SHIFT + ALT + BACKSPACE | Restores the previously undone action. |
 | Edit.SelectionCancel | ESC | Closes a menu or dialog box, cancels an operation in progress, or places focus in the current document window. |
-| Edit.Undo | CTRL + Z ALT + BACKSPACE | Reverses the last editing action. |
+| Edit.Undo | CTRL + Z <br/> ALT + BACKSPACE | Reverses the last editing action. |
 | File.Print | CTRL + P | Displays the Print dialog box, where you can choose printer settings. |
 | File.SaveAll | CTRL + SHIFT + S | Saves all documents in the current solution and any files in the external files project. |
 | File.SaveSelectedItems | CTRL + S | Saves the selected items in the current project. |
 | Tools.GoToCommandLine | CTRL + / | Places the caret in the Find/Command box on the Standard toolbar. |
-| View.NextTask | F4 CTRL + SHIFT + F12 | Moves to the next task in the Task List window. |
+| View.NextTask | F4 <br/> CTRL + SHIFT + F12 | Moves to the next task in the Task List window. |
 | View.PopBrowseContext | CTRL + NUM * | Bookmarks your latest Go To definition or reference search. |
 | View.PreviousTask | SHIFT + F4 | Moves to the previous task in the Task List window. |
 | View.ViewCode | CTRL + ALT + 0 | Displays the selected item in Code view of the editor. |
@@ -147,8 +147,7 @@ This section lists the default key combinations available for the Visual C++ 6.0
 | Insert.Hyperlink | CTRL + L | When text is selected, displays the Hyperlink dialog box. Available only in Design view. |
 | Insert.Image | CTRL + SHIFT + W | Displays the Insert Image dialog box. Available only available in Design view. |
 | View.Details | CTRL + SHIFT + Q | Displays signal icons for HTML elements that do not have a visual representation, such as comments, scripts, and anchors for absolutely positioned elements. Available only in Design view. |
-| View.NextView | CTRL + PAGE DOWN | HTML Editor: Toggles between Design view and HTML view. |
-| XML Editor: Toggles between Data view and Schema view. |
+| View.NextView | CTRL + PAGE DOWN | HTML Editor: Toggles between Design view and HTML view. XML Editor: Toggles between Data view and Schema view. |
 | View.VisibleBorders | CTRL + Q | Displays a 1-pixel border around HTML elements that support a BORDER attribute and has it set to zero, such as tables, table cells, and divisions. Available only in Design view.
 
 ## Image Editor Shortcut Keys
@@ -196,8 +195,8 @@ This section lists the default key combinations available for the Visual C++ 6.0
 
 | Command name | Shortcut keys | Description |
 |---|---|---|
-| Edit.FindSymbol | ALT + F12 CTRL + SHIFT + Y | Displays the Find Symbol dialog box. |
-| Edit.GoToDeclaration | CTRL + F12 CTRL + ALT + F12 | Displays the definition of the selected symbol in the code. |
+| Edit.FindSymbol | ALT + F12 <br/> CTRL + SHIFT + Y | Displays the Find Symbol dialog box. |
+| Edit.GoToDeclaration | CTRL + F12 <br/> CTRL + ALT + F12 | Displays the definition of the selected symbol in the code. |
 | Edit.GoToDefinition | F12 | Displays the declaration for the selected symbol in code. |
 | View.FindSymbolResults | CTRL + ALT + Y | Displays the Find Symbol Results window. |
 | View.ObjectBrowser | CTRL + ALT + J | Displays the Object Browser to view the classes, properties, methods, events, and constants available for packages and object libraries and the procedures in your project. |
@@ -246,20 +245,20 @@ This section lists the default key combinations available for the Visual C++ 6.0
 
 | Command name | Shortcut keys | Description |
 |---|---|---|
-| Edit.BreakLine | ENTER SHIFT + ENTER | Inserts a new line. |
+| Edit.BreakLine | ENTER <br/> SHIFT + ENTER | Inserts a new line. |
 | Edit.CharTranspose | CTRL + T | Swaps the characters on either side of the insertion point. For example, AC|BD becomes AB|CD. Available only in text editors. |
-| Edit.ClearBookmarks | CTRL + SHIFT + F2 CTRL + K, CTRL + L | Removes all unnamed bookmarks in the current document. |
+| Edit.ClearBookmarks | CTRL + SHIFT + F2 <br/> CTRL + K, CTRL + L | Removes all unnamed bookmarks in the current document. |
 | Edit.CollapsetoDefinitions | CTRL + M, CTRL + O | Automatically determines logical boundaries for creating regions in code, such as procedures, and then hides them. |
 | Edit.CommentSelection | CTRL + K, CTRL + C | Marks the current line of code as a comment, using the correct comment syntax for the programming language. |
-| Edit.CompleteWord | CTRL + SPACE ALT + RIGHT ARROW | Displays Word Completion based on the current language. |
+| Edit.CompleteWord | CTRL + SPACE <br/> ALT + RIGHT ARROW | Displays Word Completion based on the current language. |
 | Edit.Delete | DELETE | Deletes one character to the right of the cursor. |
-| Edit.DeleteBackwards | BACKSPACE SHIFT + BACKSPACE | Deletes one character to the left of the cursor. |
+| Edit.DeleteBackwards | BACKSPACE <br/> SHIFT + BACKSPACE | Deletes one character to the left of the cursor. |
 | Edit.DeleteHorizontalWhiteSpace | CTRL + K, CTRL + \ | Collapses white space in the selection, or deletes white space adjacent to the cursor if no selection. |
 | Edit.FormatDocument | CTRL + K, CTRL + D | Applies the indenting and space formatting for the language as specified on the Formatting pane of the language in the Text Editor section of the Options dialog box. |
-| Edit.FormatSelection | ALT + F8 CTRL + K, CTRL + F | Correctly indents the selected lines of code based on the surrounding lines of code. |
+| Edit.FormatSelection | ALT + F8 <br/> CTRL + K, CTRL + F | Correctly indents the selected lines of code based on the surrounding lines of code. |
 | Edit.HideSelection | CTRL + M, CTRL + H | Hides the selected text. A signal icon marks the location of the hidden text in the file. |
 | Edit.InsertTab | TAB | Indents the line of text a specified number of spaces, such as five. |
-| Edit.LineCut | CTRL + L SHIFT + ALT + L | Cuts all selected lines, or the current line if nothing has been selected, to the clipboard. |
+| Edit.LineCut | CTRL + L <br/> SHIFT + ALT + L | Cuts all selected lines, or the current line if nothing has been selected, to the clipboard. |
 | Edit.LineDelete | CTRL + SHIFT + L | Deletes all selected lines, or the current line if no selection has been made. |
 | Edit.LineOpenAbove | CTRL + ENTER | Inserts a blank line above the insertion point. |
 | Edit.LineOpenBelow | CTRL + SHIFT + ENTER | Inserts a blank line below the insertion point. |
@@ -272,12 +271,12 @@ This section lists the default key combinations available for the Visual C++ 6.0
 | Edit.SwapAnchor | CTRL + R, CTRL + P | Swaps the anchor and end points of the current selection. |
 | Edit.TabLeft | SHIFT + TAB | Moves selected lines to the left one tab stop. |
 | Edit.ToggleAllOutlining | CTRL + M, CTRL + L | Toggles all previously marked hidden text sections between hidden and display states. |
-| Edit.ToggleBookmark | CTRL + F2 CTRL + K, CTRL + K | Sets or removes a bookmark at the current line. |
+| Edit.ToggleBookmark | CTRL + F2 <br/> CTRL + K, CTRL + K | Sets or removes a bookmark at the current line. |
 | Edit.ToggleOutliningExpansion | CTRL + M, CTRL + M | Toggles the currently selected hidden text section between the hidden and display state. |
 | Edit.ToggleTaskListShortcut | CTRL + K, CTRL + H | Sets or removes a shortcut at the current line. |
 | Edit.ToggleWordWrap | CTRL + R, CTRL + R | Enables or disables word wrap in an editor. |
 | Edit.UncommentSelection | CTRL + K, CTRL + U | Removes the comment syntax from the current line of code. |
-| Edit.ViewWhiteSpace | CTRL + SHIFT + 8 CTRL + R, CTRL + W | Shows or hides spaces and tab marks. |
+| Edit.ViewWhiteSpace | CTRL + SHIFT + 8 <br/> CTRL + R, CTRL + W | Shows or hides spaces and tab marks. |
 | Edit.WordDeleteToEnd | CTRL + DELETE | Deletes the word to the right of the insertion point. |
 | Edit.WordDeleteToStart | CTRL + BACKSPACE | Deletes the word to the left of the insertion point. |
 | Edit.WordTranspose | CTRL + SHIFT + T | Transposes the words on either side of the insertion point. For example, main int would be changed to read int main.
@@ -296,20 +295,18 @@ This section lists the default key combinations available for the Visual C++ 6.0
 | Edit.LineEnd | END | Moves the cursor to the end of the current line. |
 | Edit.LineStart | HOME | Moves the cursor to the beginning of the line. |
 | Edit.LineUp | UP ARROW | Moves the cursor up one line. |
-| Edit.NextBookmark | F2 CTRL + K, CTRL + N | Moves to the next bookmark in the document. |
+| Edit.NextBookmark | F2 <br/> CTRL + K, CTRL + N | Moves to the next bookmark in the document. |
 | Edit.PageDown | PAGE DOWN | Scrolls down one screen in the editor window. |
 | Edit.PageUp | PAGE UP | Scrolls up one screen in the editor window. |
-| Edit.PreviousBookmark | SHIFT + F2 CTRL + K, CTRL + P | Moves to the previous bookmark. |
+| Edit.PreviousBookmark | SHIFT + F2 <br/> CTRL + K, CTRL + P | Moves to the previous bookmark. |
 | Edit.QuickInfo | CTRL + K, CTRL + I | Displays Quick Info, based on the current language. |
 | Edit.ScrollLineDown | CTRL + DOWN ARROW | Scrolls text down one line. Available in text editors only. |
 | Edit.ScrollLineUp | CTRL + UP ARROW | Scrolls text up one line. Available in text editors only. |
 | Edit.ShowTileGrid | Ctrl + Shift + G | Exposes the tile grid. Available in text editors only. |
 | Edit.WordNext | CTRL + RIGHT ARROW | Moves the insertion point to the right one word. |
 | Edit.WordPrevious | CTRL + LEFT ARROW | Moves the insertion point to the left one word. |
-| View.BrowseNext | CTRL + NUM + |
-| CTRL + SHIFT + 1 | Displays the next symbol reference or definition. |
-| View.BrowsePrevious | CTRL + NUM – |
-| CTRL + SHIFT + 2 | Displays the previous symbol reference or definition.
+| View.BrowseNext | CTRL + NUM + <br/> CTRL + SHIFT + 1 | Displays the next symbol reference or definition. |
+| View.BrowsePrevious | CTRL + NUM – <br/> CTRL + SHIFT + 2 | Displays the previous symbol reference or definition.
 
 ## Text Selection Shortcut Keys
 
@@ -328,8 +325,7 @@ This section lists the default key combinations available for the Visual C++ 6.0
 | Edit.LineEndExtendColumn | SHIFT + ALT + END | Moves the insertion point to the end of the line, extending the column selection. |
 | Edit.LineStartExtend | SHIFT + HOME | Selects text from the insertion point to the start of the line. |
 | Edit.LineStartExtendColumn | SHIFT + ALT + HOME | Moves the insertion point to the start of the line, extending the column selection. |
-| Edit.LineUpExtend | SHIFT + DOWN ARROW |
-| SHIFT + UP ARROW | Selects text up line by line starting from the location of the insertion point. |
+| Edit.LineUpExtend | SHIFT + DOWN ARROW <br/> SHIFT + UP ARROW | Selects text up line by line starting from the location of the insertion point. |
 | Edit.LineUpExtendColumn | SHIFT + ALT + UP ARROW | Moves the cursor up one line, extending the column selection. |
 | Edit.PageDownExtend | SHIFT + PAGE DOWN | Extends selection down one page. |
 | Edit.PageUpExtend | SHIFT + PAGE UP | Extends selection up one page. |
@@ -352,8 +348,7 @@ This section lists the default key combinations available for the Visual C++ 6.0
 | View.CommandWindow | CTRL + ALT + A | Displays the Command window, which allows you to type commands that manipulate the IDE. |
 | View.DocumentOutline | CTRL + ALT + D | Displays the Document Outline window to view the flat or hierarchical outline of the current document. |
 | View.Favorites | CTRL + ALT + F | Displays Help Favorites, which lists shortcuts to Web pages. |
-| View.Output | ALT + 2 |
-| CTRL + ALT + O | Displays the Output window to view status messages at run time. |
+| View.Output | ALT + 2 <br/> CTRL + ALT + O | Displays the Output window to view status messages at run time. |
 | View.PropertiesWindow | ALT + ENTER | Displays the Properties window, which lists the design-time properties and events for the currently selected item. |
 | View.ResourceView | CTRL + SHIFT + E | Displays the Resource View window. |
 | View.ServerExplorer | CTRL + ALT + S | Displays the Server Explorer windows, which allows you to view and manipulate database servers, event logs, message queues, XML Web services, and many other operating system services. |
@@ -371,11 +366,11 @@ This section lists the default key combinations available for the Visual C++ 6.0
 | Window.ActivateDocumentWindow | ESC ALT + 0 | Closes a menu or dialog box, cancels an operation in progress, or places focus in the current document window. |
 | Window.CloseDocumentWindow | CTRL + F4 | Closes the current MDI child window. |
 | Window.CloseToolWindow | SHIFT + ESC | Closes the current tool window. |
-| Window.NextDocumentWindow | CTRL + F6 CTRL + TAB | Cycle through the MDI child windows one window at a time. |
+| Window.NextDocumentWindow | CTRL + F6 <br/> CTRL + TAB | Cycle through the MDI child windows one window at a time. |
 | Window.NextPane | ALT + F6 | Moves to the next tool window. |
 | Window.NextSplitPane | F6 | Moves to the next pane of a split pane view of a single document. |
 | Window.NextTab | CTRL + PAGE DOWN | Moves to the next tab in the document or window. |
-| Window.PreviousDocumentWindow | CTRL + SHIFT + F6 CTRL + SHIFT + TAB | Moves to the previous document in the editor or designer. |
+| Window.PreviousDocumentWindow | CTRL + SHIFT + F6 <br/> CTRL + SHIFT + TAB | Moves to the previous document in the editor or designer. |
 | Window.PreviousPane | SHIFT + ALT + F6 | Moves to the previously selected window. |
 | Window.PreviousSplitPane | SHIFT + F6 | Moves to the previous pane of a document in split pane view. |
 | Window.PreviousTab | CTRL + PAGE UP | Moves to the previous tab in the document or window.
