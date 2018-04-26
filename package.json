@@ -15,7 +15,9 @@
         "Extension Packs"
     ],
     "keywords": [
-        "keymap"
+        "keymap",
+        "vc6",
+        "visual studio"
     ],
     "repository": {
         "type": "git",
@@ -64,9 +66,9 @@
                 "when": "editorTextFocus"
             },
             {
-                "key": "ctrl+k ctrl+f2",
-                "command": "editor.action.changeAll",
-                "when": "editorTextFocus && !editorReadonly"
+                "key": "ctrl+shift+f2",
+                "command": "bookmarks.clear",
+                "when": "editorTextFocus"
             },
             {
                 "key": "ctrl+k ctrl+d",
@@ -77,16 +79,6 @@
                 "key": "alt+f8",
                 "command": "editor.action.formatSelection",
                 "when": "editorHasSelection && editorTextFocus && !editorReadonly"
-            },
-            {
-                "key": "ctrl+,",
-                "command": "editor.fold",
-                "when": "editorTextFocus"
-            },
-            {
-                "key": "ctrl+.",
-                "command": "editor.unfold",
-                "when": "editorTextFocus"
             },
             {
                 "key": "ctrl+]",

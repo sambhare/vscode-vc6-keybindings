@@ -10,10 +10,6 @@ You can see all the keyboard shortcuts in the extension's contribution list.
 
 VS Code does not implement all of the commands that were available in Visual C++ 6.0. As a reference, <a href="https://msdn.microsoft.com/en-us/library/58feksch(v=vs.100).aspx">this page</a> lists all the shortcuts available in Visual C++ 6.0.
 
-## Why are there some keyboard shortcuts here that were not originally in Visual C++ 6.0?
-
-Some useful VS Code concepts like folding did not exist in Visual C++ 6.0. I did my best to provide shortcuts for such features.
-
 ## Why does this install the Bookmarks extension?
 
 Anonymous bookmarking via the F2 key was one of the most useful features of Visual C++ 6.0 and the [Bookmarks extension](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) combined with this keymap brings this functionality to VS Code.
