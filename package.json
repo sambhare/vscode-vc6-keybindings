@@ -2,7 +2,7 @@
     "name": "vc6-keybindings",
     "displayName": "Visual C++ 6.0 Keymap",
     "description": "Popular Visual C++ 6.0 keybindings for VS Code.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "sambhare",
     "author": {
         "name": "Rajas Sambhare"
@@ -91,9 +91,29 @@
                 "when": "editorTextFocus"
             },
             {
-                "key": "alt+f12",
+                "key": "f12",
+                "command": "editor.action.goToDeclaration",
+                "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+            },
+            {
+                "key": "shift+f12",
                 "command": "editor.action.referenceSearch.trigger",
                 "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+            },
+            {
+                "key": "ctrl+shift+f12",
+                "command": "editor.action.peekImplementation",
+                "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+            },
+            {
+                "key": "alt+f12",
+                "command": "editor.action.previewDeclaration",
+                "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+            },
+            {
+                "key": "ctrl+k ctrl+f2",
+                "command": "editor.action.changeAll",
+                "when": "editorTextFocus && !editorReadonly"
             },
             {
                 "key": "ctrl+k f2",
@@ -138,20 +158,24 @@
                 "command": "workbench.action.files.saveAll"
             },
             {
+                "key": "f6",
+                "command": "workbench.action.focusNextGroup"
+            },
+            {
+                "key": "ctrl+,",
+                "command": "workbench.action.gotoSymbol"
+            },
+            {
+                "key": "shift+f6",
+                "command": "workbench.action.focusPreviousGroup"
+            },
+            {
                 "key": "ctrl+-",
                 "command": "workbench.action.navigateBack"
             },
             {
                 "key": "ctrl+shift+-",
                 "command": "workbench.action.navigateForward"
-            },
-            {
-                "key": "f6",
-                "command": "workbench.action.focusNextGroup"
-            },
-            {
-                "key": "shift+f6",
-                "command": "workbench.action.focusPreviousGroup"
             },
             {
                 "key": "f7",
