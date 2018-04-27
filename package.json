@@ -2,7 +2,7 @@
     "name": "vc6-keybindings",
     "displayName": "Visual C++ 6.0 Keymap",
     "description": "Popular Visual C++ 6.0 keybindings for VS Code.",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "publisher": "sambhare",
     "author": {
         "name": "Rajas Sambhare"
@@ -175,6 +175,10 @@
             },
             {
                 "key": "ctrl+shift+-",
+                "command": "workbench.action.navigateForward"
+            },
+            {
+                "key": "ctrl+=",
                 "command": "workbench.action.navigateForward"
             },
             {
