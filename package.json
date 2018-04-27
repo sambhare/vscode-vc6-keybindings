@@ -4,6 +4,7 @@
     "description": "Popular Visual C++ 6.0 keybindings for VS Code.",
     "version": "0.1.0",
     "publisher": "sambhare",
+    "license": "SEE LICENSE IN LICENSE",
     "author": {
         "name": "Rajas Sambhare"
     },

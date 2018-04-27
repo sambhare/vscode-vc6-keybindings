@@ -20,7 +20,7 @@ It is very easy to make a PR.
 
 1. Head over to the [GitHub repository](https://github.com/sambhare/vscode-vc6-keybindings).
 2. Open [`package.json`](https://github.com/sambhare/vscode-vc6-keybindings/blob/master/package.json).
-3. Add a JSON object to [`contributes.keybindings`](https://github.com/sambhare/vscode-vc6-keybindingss/blob/master/package.json#L26) as seen below.
+3. Add a JSON object to [`contributes.keybindings`](https://github.com/sambhare/vscode-vc6-keybindings/blob/master/package.json#L32) as seen below.
 4. Open a pull request.
 
 ```json
