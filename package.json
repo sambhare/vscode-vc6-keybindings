@@ -2,7 +2,7 @@
     "name": "vc6-keybindings",
     "displayName": "Visual C++ 6.0 Keymap",
     "description": "Popular Visual C++ 6.0 keybindings for VS Code.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "sambhare",
     "license": "SEE LICENSE IN LICENSE",
     "author": {
@@ -30,6 +30,17 @@
     "preview": true,
     "icon": "vc6-keyboard.png",
     "contributes": {
+        "configuration": {
+            "title": "Visual C++ 6.0 Keymap Configuration",
+            "type": "object",
+            "properties": {
+                "vc6-keybindings.enableExtraKeys": {
+                    "type": "boolean",
+                    "description": "Enable useful extra keys not originally defined in Visual C++ 6.0",
+                    "default": false
+                }
+            }
+        },
         "keybindings": [
             {
                 "key": "ctrl+right",
@@ -185,6 +196,26 @@
             {
                 "key": "f7",
                 "command": "workbench.action.tasks.build"
+            },
+            {
+                "key": "ctrl+f7",
+                "command": "workbench.action.tasks.runTask",
+                "when": "config.vc6-keybindings.enableExtraKeys"
+            },
+            {
+                "key": "ctrl+pausebreak",
+                "command": "workbench.action.tasks.terminate",
+                "when": "config.vc6-keybindings.enableExtraKeys"
+            },
+            {
+                "key": "ctrl+`",
+                "command": "workbench.action.togglePanel",
+                "when": "config.vc6-keybindings.enableExtraKeys"
+            }
+            {
+                "key": "alt+`",
+                "command": "workbench.action.toggleSidebarVisibility",
+                "when": "config.vc6-keybindings.enableExtraKeys"
             }
         ]
     },

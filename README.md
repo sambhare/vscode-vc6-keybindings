@@ -6,13 +6,15 @@ This extension ports several Visual C++ 6.0 keyboard shortcuts to Visual Studio 
 
 You can see all the keyboard shortcuts in the extension's contribution list.
 
+The extension also adds some useful keyboard shortcuts which were not originally present in Visual C++ 6.0. These extra shortcuts are disabled by default and are controlled by the setting `vc6-keybindings.enableExtraKeys`.
+
 ## Why aren't all the shortcuts included?
 
 VS Code does not implement all of the commands that were available in Visual C++ 6.0. As a reference, <a href="https://msdn.microsoft.com/en-us/library/58feksch(v=vs.100).aspx">this page</a> lists all the shortcuts available in Visual C++ 6.0.
 
 ## Why does this install the Bookmarks extension?
 
-Anonymous bookmarking via the F2 key was one of the most useful features of Visual C++ 6.0 and the [Bookmarks extension](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) combined with this keymap brings this functionality to VS Code.
+Anonymous bookmarking via the <kbd>F2</kbd> key was one of the most useful features of Visual C++ 6.0 and the [Bookmarks extension](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) combined with this keymap brings this functionality to VS Code.
 
 ## How do I contribute a keyboard shortcut?
 
