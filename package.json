@@ -211,7 +211,7 @@
                 "key": "ctrl+`",
                 "command": "workbench.action.togglePanel",
                 "when": "config.vc6-keybindings.enableExtraKeys"
-            }
+            },
             {
                 "key": "alt+`",
                 "command": "workbench.action.toggleSidebarVisibility",
