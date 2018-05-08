@@ -8,6 +8,12 @@ All notable changes to this project will be documented in this file.
 
 - Added this CHANGELOG
 - Added 'vc6-keybindings.enableExtraKeys' setting to enable additional useful keys
+- A .vscodeignore file
+
+### Changed
+
+- Cleaned up .gitignore
+- Removed unneeded dependencies from package.json, package should now be smaller
 
 ## [0.1.0] - 2018-04-28
 
