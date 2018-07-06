@@ -2,14 +2,14 @@
     "name": "vc6-keybindings",
     "displayName": "Visual C++ 6.0 Keymap",
     "description": "Popular Visual C++ 6.0 keybindings for VS Code.",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "publisher": "sambhare",
     "license": "SEE LICENSE IN LICENSE",
     "author": {
         "name": "Rajas Sambhare"
     },
     "engines": {
-        "vscode": "^1.6.0"
+        "vscode": "^1.24.0"
     },
     "categories": [
         "Keymaps",
@@ -215,6 +215,21 @@
             {
                 "key": "alt+`",
                 "command": "workbench.action.toggleSidebarVisibility",
+                "when": "config.vc6-keybindings.enableExtraKeys"
+            },
+            {
+                "key": "ctrl+numpad_add",
+                "command": "editor.action.fontZoomIn",
+                "when": "config.vc6-keybindings.enableExtraKeys"
+            },
+            {
+                "key": "ctrl+numpad_subtract",
+                "command": "editor.action.fontZoomOut",
+                "when": "config.vc6-keybindings.enableExtraKeys"
+            },
+            {
+                "key": "ctrl+numpad0",
+                "command": "editor.action.fontZoomReset",
                 "when": "config.vc6-keybindings.enableExtraKeys"
             }
         ]
